@@ -7,5 +7,6 @@
     
     <string name="hintText">Please enter your 140-character status</string>
     <string name="buttonUpdate">Update</string>
+    <string name="toastMsg">Message sent</string>
 
 </resources>

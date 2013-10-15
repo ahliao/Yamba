@@ -26,6 +26,7 @@ public final class R {
         public static final int hintText=0x7f040003;
         public static final int titleStatus=0x7f040002;
         public static final int titleYamba=0x7f040001;
+        public static final int toastMsg=0x7f040005;
     }
     public static final class style {
         /** 
