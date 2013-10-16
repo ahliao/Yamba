@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" 
+    android:background="@drawable/background" >
     
     <!-- Title TextView -->
     <TextView android:layout_width="fill_parent"
@@ -10,7 +11,16 @@
         android:gravity="center"
         android:textSize="30sp"
         android:layout_margin="10dp"
-        android:text="@string/titleStatus" />
+        android:text="@string/titleStatus"
+        android:textColor="@android:color/primary_text_dark" />
+    
+    <!-- Text Counter TextView -->
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:id="@+id/textCount"
+        android:text="@string/defaultCounter"
+        android:layout_marginRight="10dp" />
     
     <!-- Status EditText -->
     <EditText android:layout_width="fill_parent"
@@ -18,7 +28,8 @@
         android:layout_weight="1"
         android:hint="@string/hintText"
         android:id="@+id/editText"
-        android:gravity="top|center_horizontal" />
+        android:gravity="top|center_horizontal"
+        android:background="#cfff" />
     
     <!-- Update Button -->
     <Button android:layout_width="fill_parent"
